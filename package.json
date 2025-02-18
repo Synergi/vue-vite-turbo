@@ -1,4 +1,6 @@
 {
+  "name": "vue-vite-turbo",
+  "packageManager": "pnpm@8.15.6",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -10,7 +12,5 @@
     "eslint": "^9.20.1",
     "prettier": "^3.5.1",
     "turbo": "^2.4.2"
-  },
-  "packageManager": "pnpm@8.15.6",
-  "name": "with-vue-vite"
+  }
 }
