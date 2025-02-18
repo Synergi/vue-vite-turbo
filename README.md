@@ -1,6 +1,6 @@
 # Turborepo Vue Typescript starter
 
-This Turborepo starter is not maintained by the Turborepo team.
+This Turborepo starter is maintained by me. If you experience a problem, please submit a pull request with a fix. GitHub Issues will be closed.
 
 ## Using this example
 
