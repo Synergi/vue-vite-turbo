@@ -10,7 +10,7 @@ export default defineConfig({
   resolve: {},
   build: {
     lib: {
-      name: 'ipscapeI18n',
+      name: 'I18n',
       entry: fileURLToPath(new URL('./index.ts', import.meta.url)),
       formats: ['es', 'iife'],
       fileName: (format) => {
@@ -28,12 +28,6 @@ export default defineConfig({
     rollupOptions: {
       external: ['vue'],
       output: {
-        banner: `
-/**
- *  Copyright ${new Date(Date.now()).getFullYear()} ipSCAPE 
- *  @license MIT
-**/
-`,
         exports: 'named',
         globals: {
           vue: 'Vue',

@@ -1,4 +1,4 @@
 {
-  "name": "ipscape-base",
+  "name": "with vue vite",
   "description": "Monorepo with multiple Vanilla JS apps bundled with Vite, sharing a UI Library"
 }

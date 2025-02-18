@@ -9,7 +9,7 @@ import App from './App.vue';
 import './assets/style.css'
 
 // i18n
-import { i18n } from '@ipscape/i18n';
+import { i18n } from '@packages/i18n';
 
 // creating app
 const app = createApp(App);

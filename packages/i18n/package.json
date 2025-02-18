@@ -1,5 +1,5 @@
 {
-  "name": "@ipscape/i18n",
+  "name": "@packages/i18n",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -17,8 +17,8 @@
     "vue-i18n": "^11.1.1"
   },
   "devDependencies": {
-    "@ipscape/eslint-config": "workspace:*",
-    "@ipscape/typescript-config": "workspace:*",
+    "@packages/eslint-config": "workspace:*",
+    "@packages/typescript-config": "workspace:*",
     "@types/node": "^20.17.17",
     "@vitejs/plugin-vue": "^5.2.1",
     "vite": "^6.1.0",
