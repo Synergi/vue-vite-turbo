@@ -1,0 +1,8 @@
+{
+  "extends": "@ipscape/typescript-config/tsconfig.base.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "lib": ["DOM"]
+  },
+  "include": ["index.ts", "locales", "locales/*.json"]
+}

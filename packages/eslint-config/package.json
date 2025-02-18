@@ -1,0 +1,23 @@
+{
+  "name": "@ipscape/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./index.js",
+    "./library": "./library.js"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.10.4",
+    "@typescript-eslint/eslint-plugin": "^8.9.0",
+    "@typescript-eslint/parser": "^8.9.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "vue-eslint-parser": "^9.4.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

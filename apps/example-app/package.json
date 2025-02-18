@@ -1,0 +1,35 @@
+{
+  "name": "@ipscape/example",
+  "version": "8.34.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check-types": "vue-tsc --project ./tsconfig.json --noEmit",
+    "build": "vite build -l error",
+    "check-dependencies": "pnpm outdated",
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "lint": "eslint . --ext .vue,.js,.jsx,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "test": "vitest run --silent"
+  },
+  "dependencies": {
+    "@ipscape/i18n": "workspace:*",
+    "@types/node": "^20.17.17",
+    "@vueuse/components": "^12.5.0",
+    "@vueuse/core": "^12.5.0",
+    "date-fns": "^4.1.0",
+    "floating-vue": "^5.2.2",
+    "pinia": "^2.3.1",
+    "pinia-plugin-persistedstate": "^4.1.3",
+    "vue": "3.5.13",
+    "vue-router": "4.5.0"
+  },
+  "devDependencies": {
+    "@ipscape/eslint-config": "workspace:*",
+    "@ipscape/typescript-config": "workspace:*",
+    "@vitejs/plugin-basic-ssl": "^1.2.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
+  }
+}

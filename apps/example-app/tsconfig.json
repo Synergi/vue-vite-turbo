@@ -1,0 +1,5 @@
+{
+  "extends": "@ipscape/typescript-config/tsconfig.app.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/shims-vue.d.ts"],
+  "exclude": ["src/**/__tests__/*"]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "display": "Default",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["ESNext"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "**/*/dist",
+      "**/*/build",
+      "**/*/.next",
+      "**/*/umd"
+    ],
+    "paths": {}
+  },
+  "exclude": [
+    "node_modules",
+    "**/*/dist",
+    "**/*/build",
+    "**/*/__tests__",
+    "**/*/__mocks__"
+  ],
+  "include": ["./**/*.ts", "./**/*.tsx"]
+}

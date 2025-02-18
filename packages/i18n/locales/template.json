@@ -1,0 +1,236 @@
+{
+  "login": {
+    "title": {
+      "cti": ""
+    },
+    "label": {
+      "alternateSignIn": ""
+    },
+    "inputField": {
+      "username": "",
+      "password": ""
+    },
+    "button": {
+      "signIn": "",
+      "signInLoading": "",
+      "ssoAlt": "",
+      "ssoHover": ""
+    }
+  },
+
+  "logout": {
+    "title": {
+      "cti": ""
+    },
+    "button": {
+      "logout": "",
+      "signIn": ""
+    }
+  },
+
+  "account": {
+    "title": {
+      "setting": ""
+    },
+    "button": {
+      "inbox": "",
+      "reportIssue": "",
+      "releaseNotes": "",
+      "userGuide": ""
+    }
+  },
+
+  "password": {
+    "title": {
+      "updatePassword": ""
+    },
+    "label": {
+      "enterNewPassword": "",
+      "useNewPassword": ""
+    },
+    "inputField": {
+      "newPassword": "",
+      "confirmNewPassword": ""
+    },
+    "button": {
+      "updatePassword": ""
+    }
+  },
+
+  "connectVoice": {
+    "title": {
+      "connectVoice": "",
+      "callIn": "",
+      "callMe": "",
+      "webConnect": "",
+      "persistentConnection": "",
+      "nonPersistentConnection": ""
+    },
+    "label": {
+      "callIn": "",
+      "callMe": "",
+      "numToCall": "",
+      "yourAgentId": "",
+      "verificationPin": "",
+      "saveDefault": "",
+      "allowInvalidNum": "",
+      "howToConnect": "",
+      "persistentConnection": "",
+      "nonPersistentConnection": "",
+      "nonPersistentCheckbox": "",
+      "persistentCheckbox": ""
+    },
+    "button": {
+      "connect": "",
+      "skip": "",
+      "connectionIssues": ""
+    }
+  },
+
+  "availability": {
+    "label": {
+      "available": "",
+      "unavailable": "",
+      "receiveCalls": "",
+      "onPause": ""
+    }
+  },
+
+  "dialNumber": {
+    "title": {
+      "keypad": ""
+    },
+    "label": {
+      "enterNumber": "",
+      "invalidNumber": ""
+    },
+    "button": {
+      "call": ""
+    },
+    "characters": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": ""
+    }
+  },
+
+  "peoplePage": {
+    "title": {
+      "people": ""
+    },
+    "label": {
+      "noAgentsAvailable": "",
+      "noContactsAvailable": ""
+    }
+  },
+
+  "callInteraction": {
+    "label": {
+      "inbound": "",
+      "outbound": "",
+      "chooseNumToCall": "",
+      "clickCallToDial": "",
+      "interactionId": "",
+      "campaign": "",
+      "ivrData": "",
+      "timeInQueue": "",
+      "invalidNumber": ""
+    },
+    "dropdown": {
+      "agent": "",
+      "contact": "",
+      "number": "",
+      "workflow": "",
+      "otherNumber": "",
+      "announcementPlaceholder": ""
+    },
+    "button": {
+      "play": "",
+      "notes": "",
+      "callQuality": "",
+      "wrapCall": "",
+      "resumeRecordingHover": "",
+      "stopRecordingHover": "",
+      "bookmarkHover": "",
+      "hangUpHover": "",
+      "holdHover": "",
+      "offHoldHover": "",
+      "moreActionsHover": "",
+      "transferCall": "",
+      "playAnnouncement": "",
+      "mergeLines": "",
+      "dialling": ""
+    },
+    "toasterNotification": {
+      "receivedTransfer": "",
+      "receivedInbound": "",
+      "previewAllocated": "",
+      "transferred": "",
+      "transferFailed": "",
+      "conferenceCall": "",
+      "conferenceCallFailed": "",
+      "lineSwitch": "",
+      "lineSwitchFailed": "",
+      "retrievedCall": "",
+      "retrievedCallFailed": "",
+      "announcementStopped": ""
+    }
+  },
+
+  "commonInteraction": {
+    "title": {
+      "queues": "",
+      "interactions": ""
+    },
+    "label": {
+      "autoWrap": "",
+      "calls": "",
+      "transferNotes": ""
+    },
+    "dropdown": {
+      "transferTypePlaceholder": "",
+      "campaignPlaceholder": "",
+      "wrapCodePlaceholder": ""
+    },
+    "button": {
+      "extend": "",
+      "transfer": "",
+      "assistedTransfer": "",
+      "consult": ""
+    }
+  },
+
+  "notification": {
+    "title": {
+      "message": "",
+      "inbox": ""
+    }
+  },
+
+  "rating": {
+    "label": {
+      "bad": "",
+      "poor": "",
+      "average": "",
+      "good": "",
+      "excellent": ""
+    }
+  },
+
+  "common": {
+    "button": {
+      "info": "",
+      "loadingText": "",
+      "connecting": ""
+    },
+    "dropdown": {
+      "arrowDown": ""
+    }
+  }
+}

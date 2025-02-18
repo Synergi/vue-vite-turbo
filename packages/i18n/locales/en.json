@@ -1,0 +1,338 @@
+{
+  "login": {
+    "title": {
+      "cti": "Sign in to CTI Adaptor",
+      "toolbar": "Sign in to Agent Toolbar"
+    },
+    "label": {
+      "alternateSignIn": "or sign in with:"
+    },
+    "inputField": {
+      "username": "Type username here",
+      "password": "Type password here"
+    },
+    "button": {
+      "signIn": "Sign in",
+      "signInLoading": "Signing in",
+      "ssoAlt": "Sign in with Microsoft",
+      "ssoHover": "Click here to sign in with Microsoft"
+    },
+    "toasterNotification": {
+      "ssoLoginFailed": "SSO login failed"
+    }
+  },
+
+  "logout": {
+    "title": {
+      "cti": "You have signed out of CTI"
+    },
+    "button": {
+      "logout": "Sign out",
+      "signIn": "Sign in again"
+    }
+  },
+
+  "account": {
+    "title": {
+      "setting": "Account settings"
+    },
+    "button": {
+      "inbox": "Notifications",
+      "reportIssue": "Report an issue",
+      "releaseNotes": "Release notes",
+      "userGuide": "User guide"
+    }
+  },
+
+  "password": {
+    "title": {
+      "updatePassword": "Set new password"
+    },
+    "label": {
+      "enterNewPassword": "Enter your new password below:",
+      "useNewPassword": "Please use your new password to sign in"
+    },
+    "inputField": {
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm new password"
+    },
+    "button": {
+      "updatePassword": "Update password"
+    }
+  },
+
+  "connectVoice": {
+    "title": {
+      "connectVoice": "Connect voice",
+      "callIn": "Call in to connect",
+      "callMe": "Call me to connect",
+      "webConnect": "Connect to Web Connect",
+      "persistentConnection": "Persistent connection",
+      "nonPersistentConnection": "Non-persistent connection"
+    },
+    "label": {
+      "callIn": "To connect, dial a number below and use your agent ID and verification pin to connect.",
+      "callMe": "To connect, enter either a phone number or extension and the system will call you.",
+      "numToCall": "Number to call",
+      "yourAgentId": "Your agent ID",
+      "verificationPin": "Verification pin",
+      "saveDefault": "Save as default",
+      "allowInvalidNum": "Allow invalid number",
+      "howToConnect": "How would you like to receive calls?",
+      "persistentConnection": "Receive incoming calls instantly",
+      "nonPersistentConnection": "Answer or decline incoming calls",
+      "nonPersistentCheckbox": "Non-persistent connection. Answer or decline incoming calls.",
+      "persistentCheckbox": "Persistent connection. Receive incoming calls instantly."
+    },
+    "button": {
+      "connect": "Connect",
+      "skip": "Skip",
+      "connectionIssues": "Connection issues?"
+    },
+    "error": {
+      "connectionFailed": "Failed to establish a connection."
+    },
+    "warning": {
+      "hasPredictiveCampaigns": "You have been assigned outbound predictive campaigns. You will not receive any calls from these campaigns in a non-persistent connection."
+    }
+  },
+
+  "availability": {
+    "label": {
+      "available": "Available",
+      "unavailable": "Unavailable",
+      "receiveCalls": "Receive calls",
+      "onPause": "On pause"
+    }
+  },
+
+  "dialNumber": {
+    "title": {
+      "keypad": "Keypad"
+    },
+    "label": {
+      "enterNumber": "Enter a phone number",
+      "invalidNumber": "Invalid phone number",
+      "callOneNumberDefault": "Phone { phoneNumber} selected by default",
+      "callCustomerNumberDefault": "Customer phone selected by default"
+    },
+    "button": {
+      "call": "Call now"
+    },
+    "characters": {
+      "1": "",
+      "2": "abc",
+      "3": "def",
+      "4": "ghi",
+      "5": "jkl",
+      "6": "mno",
+      "7": "pqrs",
+      "8": "tuv",
+      "9": "wxyz"
+    }
+  },
+
+  "peoplePage": {
+    "title": {
+      "people": "Agents"
+    },
+    "label": {
+      "noAgentsAvailable": "No agents available",
+      "noContactsAvailable": "No contacts available"
+    }
+  },
+
+  "callInteraction": {
+    "label": {
+      "inbound": "Inbound call",
+      "outbound": "Outbound call",
+      "chooseNumToCall": "Choose a phone number to call",
+      "clickCallToDial": "Click call button to dial",
+      "invalidNumber": "Invalid phone number",
+      "leadIdSelected": "Lead ID selected",
+      "selectLead": "Select lead",
+      "noLeads": "No leads found"
+    },
+    "dropdown": {
+      "agent": "Agent",
+      "contact": "Contact",
+      "number": "Number",
+      "workflow": "Workflow",
+      "otherNumber": "Other number",
+      "announcementPlaceholder": "Select announcement",
+      "noAnnoucements": "No announcements available"
+    },
+    "button": {
+      "play": "Play",
+      "notes": "Notes",
+      "callQuality": "Call quality",
+      "wrapCall": "Wrap call",
+      "wrapCallAndContinueWithLead": "Wrap and continue with lead",
+      "resumeRecordingHover": "Resume recording",
+      "stopRecordingHover": "Stop recording",
+      "bookmarkHover": "Add bookmark",
+      "hangUpHover": "Hang up",
+      "holdHover": "Put on hold",
+      "offHoldHover": "Resume call",
+      "moreActionsHover": "More actions",
+      "transferCall": "Transfer call",
+      "playAnnouncement": "Play announcement",
+      "convertToOutbound": "Convert to outbound",
+      "receivePayment": "Receive payment",
+      "useKeypad": "Use keypad",
+      "mergeLines": "Merge lines",
+      "dialling": "Dialling",
+      "convert": "Convert",
+      "searchLeads": "Search leads",
+      "requestAssist": "Request assistance"
+    },
+    "toasterNotification": {
+      "receivedTransfer": "Transfer received",
+      "receivedInbound": "You received an inbound call",
+      "previewAllocated": "Preview call allocated",
+      "transferred": "Transferred",
+      "transferMerged": "Merged",
+      "transferFailed": "Transfer failed",
+      "conferenceCall": "Conference Call",
+      "conferenceCallFailed": "Consult conference failed",
+      "lineSwitch": "Line switched",
+      "lineSwitchFailed": "Consult switch line failed",
+      "retrievedCall": "Retrieved call",
+      "retrievedCallFailed": "Retrieving call failed",
+      "announcementStopped": "Announcement stopped",
+      "callOnHold": "Call on hold",
+      "callOffHold": "Call off hold",
+      "recordingResumed": "Recording resumed",
+      "recordingStopped": "Recording stopped",
+      "bookmarkAdded": "Bookmark added",
+      "convertedToOutbound": "Converted to outbound",
+      "somethingWrong": "Something wrong!",
+      "voiceConnected": "Voice connected",
+      "voiceNotConnected": "Voice not connected",
+      "voiceDisconnected": "Voice disconnected",
+      "newNotification": "New notification",
+      "recipientCallEnded": "Recipient call ended",
+      "conferenceHasEnded": "Conference has ended"
+    }
+  },
+
+  "chatInteraction": {
+    "label": {},
+    "dropdown": {},
+    "button": {
+      "endChat": "End chat",
+      "transferChat": "Transfer chat"
+    },
+    "toasterNotification": {
+      "endedChat": "Chat ended",
+      "transferChat": "Chat transferred",
+      "newTransferChat": "You received a transfer chat."
+    },
+    "errors": {
+      "loadNewChat": "Couldn't load a new chat please refresh the page or try again later"
+    }
+  },
+
+  "commonInteraction": {
+    "title": {
+      "queues": "Queues",
+      "interactions": "Interactions"
+    },
+    "label": {
+      "interactionId": "INTERACTION ID",
+      "totalTime": "TOTAL TIME",
+      "campaign": "CAMPAIGN",
+      "channelName": "CHANNEL NAME",
+      "platformPhone": "PLATFORM PHONE",
+      "workflowParameter": "WORKFLOW PARAMETER",
+      "ivrData": "IVR DATA",
+      "timeInQueue": "TIME IN QUEUE",
+      "leadId": "LEAD ID",
+      "phone": "Phone",
+      "chats": "Chat",
+      "email": "Email",
+      "lastOutcome": "LAST OUTCOME",
+      "lastAttempt": "LAST ATTEMPT",
+      "lastSetCallback": "LAST SET CALLBACK",
+      "attempts": "ATTEMPTS",
+      "customData": "CUSTOM DATA",
+      "lastWrapcode": "LAST WRAPCODE",
+      "lastInteraction": "LAST INTERACTION",
+      "autoWrap": "Auto wrap in ",
+      "calls": "Calls",
+      "transferNotes": "Transfer notes"
+    },
+    "dropdown": {
+      "transferTypePlaceholder": "Select transfer type",
+      "campaignPlaceholder": "Select campaign",
+      "wrapCodePlaceholder": "Select outcome"
+    },
+    "button": {
+      "extend": "Extend",
+      "transfer": "Transfer",
+      "assistedTransfer": "Assisted transfer",
+      "consult": "Consult",
+      "hangUp": "Hang up"
+    }
+  },
+
+  "notification": {
+    "title": {
+      "message": "Message",
+      "inbox": "Notifications"
+    }
+  },
+
+  "rating": {
+    "label": {
+      "bad": "Bad",
+      "poor": "Poor",
+      "average": "Average",
+      "good": "Good",
+      "excellent": "Excellent"
+    }
+  },
+
+  "common": {
+    "label": {
+      "agent": "Agent"
+    },
+    "button": {
+      "info": "Info",
+      "loadingText": "Loading",
+      "connecting": "Connecting",
+      "next": "Next",
+      "backToSignIn": "Back to sign in"
+    },
+    "dropdown": {
+      "arrowDown": "Arrow down for options"
+    }
+  },
+
+  "mfa": {
+    "titles": {
+      "mfaSelectMethod": "Select multi-factor authentication",
+      "totpAuthenticate": "Authenticate",
+      "totpRegistration": "Register your authenticator app",
+      "webAuthNAuthenticationPage": "Web Authentication verification",
+      "webAuthNAuthenticationTapPage": "Verify your identity",
+      "webAuthNRegistrationPage": "Web Authentication registration",
+      "webAuthNRegistrationTapPage": "Verify your identity"
+    },
+    "verify": "Verify",
+    "registerApp": "Register app",
+    "enterVerification": "Enter the verification code displayed in your authenticator app",
+    "enterVerificationCodeHere": "Enter the verification code here",
+    "scanQRCode": "Scan the QR code with your authenticator app and enter the verification code below.",
+    "infoWebAuthnAuthentication": "When you choose next, your browser will prompt you to verify a security key or biometric authentication.",
+    "infoWebAuthnRegistration": "When you choose next, your browser will prompt you to register a security key or biometric authentication.",
+    "infoFollowInstructions": "Follow the instructions to complete registration.",
+    "oneTimePassword": "One time password",
+    "webAuthentication": "Web Authentication",
+    "backToPrevious": "Back to previous page"
+  },
+
+  "errors": {
+    "somethingWrong": "Something wrong happened (Please try again later)"
+  }
+}
